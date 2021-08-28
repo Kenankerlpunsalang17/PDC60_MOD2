@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.View.PageView">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Name"/>
+            <Entry Text="{Binding Subjects.Name}"/>
+            <Label Text="Student ID"/>
+            <Entry Text="{Binding Subjects.StudentID}"/>
+            <Label Text="Date of Attendance"/>
+            <Entry Text="{Binding Subjects.Subjectcode}"/>
+            <Label Text="Subject Code"/>
+            <Entry Text="{Binding Subjects.Subjectcode}"/>
+            <Label Text="Subject"/>
+            <Entry Text="{Binding Subjects.SubjectTitle}"/>
+            <Label Text="Unit"/>
+            <Entry Text="{Binding Subjects.Unit}"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
